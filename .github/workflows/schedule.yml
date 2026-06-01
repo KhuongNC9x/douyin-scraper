@@ -1,8 +1,6 @@
 name: Douyin Scraper - Daily 11AM
 
 on:
-  schedule:
-    - cron: '0 4 * * *'   # 4:00 UTC = 11:00 Việt Nam (UTC+7)
   workflow_dispatch:         # Cho phép chạy thủ công từ GitHub UI
 
 jobs:
